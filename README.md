@@ -12,7 +12,8 @@
 - re --> Comprobaciones con expresiones regulares
 - copy --> Manejo de diccionarios para evitar errores
 - json --> Export a JSON
-
+- matplotlib --> para show_ocr_result()
+- mplcursors --> para show_ocr_result()
 - Dependencias:
     - tensorflow 2.12.0 --> Deep Learning de los modelos de deepface
     - numpy 1.23.5 --> arrays y matemáticas
