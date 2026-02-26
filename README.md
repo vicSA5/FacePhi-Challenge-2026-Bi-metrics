@@ -17,4 +17,13 @@
 - Dependencias:
     - tensorflow 2.12.0 --> Deep Learning de los modelos de deepface
     - numpy 1.23.5 --> arrays y matemáticas
+ 
+## Funcionalidades Principales
+Extracción de Datos (OCR): Lectura automática de campos del DNI y validación de Checksums (MRZ) entre otros.
+
+Prueba de Vida (Liveness): Validación mediante MediaPipe que requiere parpadeo y un número aleatorio de gestos manuales para evitar fraudes.
+
+Matching Biométrico: Comparación facial entre la foto del DNI y la captura de la webcam usando DeepFace (modelo VGG-Face).
+
+Exportación de Resultados: Generación de un informe final en formato JSON con veredicto de aptitud.
 
