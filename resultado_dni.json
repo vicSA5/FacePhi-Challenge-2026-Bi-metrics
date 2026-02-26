@@ -1,0 +1,59 @@
+{
+    "datos": {
+        "dni": "99999999R",
+        "nombre_completo": {
+            "nombre": "CARMEN",
+            "apellido1": "ESPANOLA",
+            "apellido2": "ESPANOLA"
+        },
+        "sexo": "F",
+        "nacionalidad": "ESP",
+        "fecha_nacimiento": "1980-01-01",
+        "fecha_emision": "2021-06-02",
+        "fecha_validez": "2031-06-02",
+        "num_soporte": "CAA000000"
+    },
+    "verificaciones": {
+        "checksums": {
+            "num_docu": {
+                "numero": 4,
+                "correcto": true
+            },
+            "fecha_nac": {
+                "numero": 4,
+                "correcto": true
+            },
+            "control_final": {
+                "numero": 1,
+                "correcto": true
+            }
+        },
+        "validacion_frontal_con_mrz": {
+            "dni": true,
+            "nombre_completo": true,
+            "sexo": true,
+            "nacionalidad": true,
+            "fecha_nacimiento": true,
+            "fecha_validez": true,
+            "num_soporte": true
+        },
+        "extras": {
+            "caducidad_dni": {
+                "vigor": true,
+                "caducidadPronto": false
+            },
+            "letra_dni": {
+                "letra_correcta": true
+            },
+            "fecha_coherente": {
+                "periodoValidez_Correcto": true
+            },
+            "num_soporte": {
+                "numSoporte_Correcto": true
+            },
+            "periodo_validez": {
+                "periodoValidez_Correcto": true
+            }
+        }
+    }
+}

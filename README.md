@@ -10,6 +10,8 @@
 - opencv-python 4.11.0.86 -->  Uso de webcam
 - deepface 0.0.98 --> Comparación facial
 - re --> Comprobaciones con expresiones regulares
+- copy --> Manejo de diccionarios para evitar errores
+- json --> Export a JSON
 
 - Dependencias:
     - tensorflow 2.12.0 --> Deep Learning de los modelos de deepface
