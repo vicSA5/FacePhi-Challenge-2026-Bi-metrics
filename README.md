@@ -9,6 +9,7 @@
 - mediapipe 0.10.21 --> Visión por computador
 - opencv-python 4.11.0.86 -->  Uso de webcam
 - deepface 0.0.98 --> Comparación facial
+- re --> Comprobaciones con expresiones regulares
 
 - Dependencias:
     - tensorflow 2.12.0 --> Deep Learning de los modelos de deepface
