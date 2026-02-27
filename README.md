@@ -1,5 +1,5 @@
 # FacePhi-Challenge-2026-Bi-metrics
-
+Por Andrea Fuentes Pérez y Víctor Sánchez Auñón
 ## Requerimientos (instalar con "py -3.11 -m pip install -r requirements.txt"):
 - Python 3.11.9
 - doctr 1.9.0 --> Imagen a texto
